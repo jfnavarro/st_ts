@@ -35,11 +35,11 @@ in ext/paraclu (link) with instructions on how to install it but basically you n
     
 ## Tools
 
-###To generate ST TS peaks from a ST dataset (BED file):
+### To generate ST TS peaks from a ST dataset (BED file):
 
     compute_st_ts.py --min-data-value 20 --max-cluster-size 200 --output peaks.txt st_data.bed
     
-###To generate a matrix of ST TS counts from the ST TS peaks:
+### To generate a matrix of ST TS counts from the ST TS peaks:
 
     tag_clusters_to_matrix.py peaks.txt st_data.bed
     
